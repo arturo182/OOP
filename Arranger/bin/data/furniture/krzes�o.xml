@@ -1,0 +1,7 @@
+<furniture>
+  <name value="Krzesło" />
+  <content type="1" limit="1" />
+  <margins vertical="0" horizontal="0" />
+  <color red="142" green="117" blue="67" />
+  <size width="2" height="2" />
+</furniture>

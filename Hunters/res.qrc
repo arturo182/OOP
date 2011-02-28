@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="main.ico">res/main.ico</file>
+    </qresource>
+    <qresource prefix="/glyphs">
+        <file alias="quit.png">res/glyphs/cancel.png</file>
+        <file alias="about.png">res/glyphs/information.png</file>
+        <file alias="forward.png">res/glyphs/forward.png</file>
+        <file alias="pause.png">res/glyphs/pause.png</file>
+        <file alias="play.png">res/glyphs/play.png</file>
+        <file alias="new.png">res/glyphs/hunter.png</file>
+    </qresource>
+</RCC>

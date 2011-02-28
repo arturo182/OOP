@@ -1,0 +1,4 @@
+<animal>
+  <name value="Szakal" sex="1" genetivus="Szakala" />
+  <pixmap file="jackal.png" />
+</animal>

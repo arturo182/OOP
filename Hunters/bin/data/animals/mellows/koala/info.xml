@@ -1,0 +1,4 @@
+<animal>
+  <name value="Miś koala" sex="1" genetivus="Misia koala" />
+  <pixmap file="koala.png" />
+</animal>

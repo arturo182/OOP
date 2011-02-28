@@ -1,0 +1,4 @@
+<animal>
+  <name value="Dziki pies" sex="1" genetivus="Dzikiego psa" />
+  <pixmap file="dog.png" />
+</animal>

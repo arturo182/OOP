@@ -1,0 +1,7 @@
+<furniture>
+  <name value="Łóżko" />
+  <content type="1" limit="2" />
+  <margins vertical="0" horizontal="2" />
+  <color red="228" green="227" blue="235" />
+  <size width="4" height="6" />
+</furniture>

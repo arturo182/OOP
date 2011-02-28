@@ -1,0 +1,7 @@
+<furniture>
+  <name value="Regał" />
+  <content type="0" limit="6" />
+  <margins vertical="0" horizontal="0" />
+  <color red="112" green="67" blue="27" />
+  <size width="5" height="3" />
+</furniture>

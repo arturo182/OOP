@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgSettings</class>
+ <widget class="QDialog" name="dlgSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>561</width>
+    <height>363</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>561</width>
+    <height>363</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ustawienia</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>6</number>
+   </property>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="layHorizontal">
+     <item>
+      <spacer name="spHorizontal">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnOK">
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text">
+        <string>Anuluj</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="twMain">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tbFurniture">
+      <attribute name="title">
+       <string>Meble</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="margin">
+        <number>3</number>
+       </property>
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTreeWidget" name="twFurniture">
+         <column>
+          <property name="text">
+           <string>Nazwa</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Przechowuje</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Marginesy</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Rozmiar</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Kolor</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="layHorizontal2">
+         <item>
+          <spacer name="spHorizontal2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnFurnitureAdd">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res.qrc">
+             <normaloff>:/glyphs/add.png</normaloff>:/glyphs/add.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnFurnitureEdit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res.qrc">
+             <normaloff>:/glyphs/edit.png</normaloff>:/glyphs/edit.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnFurnitureDelete">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res.qrc">
+             <normaloff>:/glyphs/delete.png</normaloff>:/glyphs/delete.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>dlgSettings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>520</x>
+     <y>348</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

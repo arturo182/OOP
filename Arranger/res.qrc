@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/glyphs">
+        <file alias="save.png">res/glyphs/disk.png</file>
+        <file alias="open.png">res/glyphs/folder.png</file>
+        <file alias="new.png">res/glyphs/page_white.png</file>
+        <file alias="furniture_add.png">res/glyphs/shape_square_add.png</file>
+        <file alias="settings.png">res/glyphs/wrench.png</file>
+        <file alias="zoom_in.png">res/glyphs/zoom_in.png</file>
+        <file alias="zoom_out.png">res/glyphs/zoom_out.png</file>
+        <file alias="about.png">res/glyphs/information.png</file>
+        <file alias="quit.png">res/glyphs/cancel.png</file>
+        <file alias="room.png">res/glyphs/room.png</file>
+        <file alias="room_add.png">res/glyphs/room_add.png</file>
+        <file alias="room_fill.png">res/glyphs/room_lightning.png</file>
+        <file alias="resize.png">res/glyphs/arrow_nw_se.png</file>
+        <file alias="move.png">res/glyphs/arrow_nsew.png</file>
+        <file alias="add.png">res/glyphs/add.png</file>
+        <file alias="delete.png">res/glyphs/delete.png</file>
+        <file alias="edit.png">res/glyphs/pencil.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file alias="main.ico">res/main.ico</file>
+    </qresource>
+</RCC>

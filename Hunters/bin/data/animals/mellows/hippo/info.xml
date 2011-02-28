@@ -1,0 +1,4 @@
+<animal>
+  <name value="Hipopotam" sex="1" genetivus="Hipopotama" />
+  <pixmap file="hippo.png" />
+</animal>
